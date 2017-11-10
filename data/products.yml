@@ -1,0 +1,17 @@
+Honey:
+  name: Organic honey
+  description: Produced by our native bees
+Brewery:
+  name: Beer
+  description: Brewed with pure mountain water
+Fruits:
+  name: Organic fruits
+  description: Biodynamically grown in our farm
+Veggies:
+  name: Organic Veggies
+  description: Biodynamically grown in our farm
+Jams:
+  name: Organic Jams
+  description: Made with our local fruits
+
+

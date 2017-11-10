@@ -1,0 +1,17 @@
+<div class="container text-center">
+  <h1>Our local products</h1>
+
+
+  <div class="row">
+
+    <% data.products.each do |product, infos| %>
+    <div class="clo-xs-12 col-sm-4">
+      <div class="card" style="background-image: url(https://kitt.lewagon.com/placeholder/cities/<%= product %>);">
+        <h3><%= infos.name.capitalize %></h3>
+        <p><%= infos.description %></p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+</div>
