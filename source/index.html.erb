@@ -1,16 +1,14 @@
 ---
-title: Le Wagon - Middleman
+title: Farm Project - Middleman
 ---
-<div class="container text-center">
-  <h1>Today we are <%= Date.today %></h1>
-
-  <ul class="list-unstlyled">
-    <% %w(Fruits&Veggies Honey Brewery Jams).each do |products| %>
-    <li>Local and 100% organic <%= products %></li>
-    <% end %>
-  </ul>
 
 
+  <div class="banner" style="background-image: url(<%= image_path 'hortencias.jpg'%>)">
 
+    <div class="banner-content">
+      <h3>Escape to nature</h3>
+      <p>Clear your mind. Breathe in fresh air. Nourish your soul in the mountains of Minas Gerais.</p>
+      <a class="btn btn-primary btn-lg">Start exploring</a>
+    </div>
 
 </div>
